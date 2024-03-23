@@ -17,7 +17,7 @@ body{
     height: 80vh;
     width: 100%;
     background-color: black;
-    opacity: 0.4;
+    opacity: 0.69;
     position: absolute;
     top: 0;
    
@@ -41,7 +41,7 @@ nav button{
     z-index: 10 ;
 }
 .hero{
-    height: 100%;
+    height: calc(100% - 62px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +49,7 @@ nav button{
     color: white;
     position: relative;
     gap: 23px;
-    padding: 30px;
+    padding: 0 30px;
 }
 .hero> :first-child{
     font-weight: 900;
@@ -64,4 +64,8 @@ nav button{
     font-weight: 400;
     font-size: 20px;
     text-align: center ;
+}
+.seperation{
+    height: 7px;
+    background-color: rgb(46, 45, 45);
 }
