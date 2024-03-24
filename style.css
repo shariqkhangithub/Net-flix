@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
 *{
   margin: 0;
   padding: 0;
@@ -52,9 +56,10 @@ nav button{
     padding: 0 30px;
 }
 .hero> :first-child{
-    font-weight: 900;
+    font-family: "poppins";
+    font-weight: bolder;
     font-size: 48px;
-
+    text-align: center;
 }
 .hero>:nth-child(2){
     font-weight: 400;
@@ -67,5 +72,5 @@ nav button{
 }
 .seperation{
     height: 7px;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(57, 57, 57);
 }
