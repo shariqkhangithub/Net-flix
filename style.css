@@ -63,7 +63,7 @@ nav button {
 }
 
 .hero> :first-child {
-    font-family: "poppins";
+    font-family: 'poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
@@ -87,8 +87,11 @@ nav button {
 
 .btn {
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.069);
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 
@@ -99,8 +102,9 @@ nav button {
 
     background-color: red;
     color: white;
-    padding: 3px 24px;
-    font-size: 20px;
+    color: white;
+    padding: 7px 27px;
+    font-size: 17px;
     border-radius: 4px;
 }
 
@@ -113,10 +117,12 @@ nav button {
 
 .main input{
     padding: 7px 101px 8px 14px;
+    color: white;
     font-weight: 900;
     font-size: 12px;
     border-radius: 4px;
-    background-color: rgb(25, 25, 25, 0.2);
+    background-color: rgba(25, 25, 25, 0.7);
+    border: 1px soli rgbd(246, 238, 238, 0.5);
 }
 
 
@@ -124,3 +130,18 @@ nav button {
     background-color: red;
     color: white;
 }
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg img{
+    width: 30vw;
+}
+
