@@ -110,14 +110,14 @@ nav button {
     border-radius: 4px;
 }
 
-.hero-buttons{
+.hero-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
 }
 
-.main input{
+.main input {
     padding: 7px 101px 8px 14px;
     color: white;
     font-weight: 900;
@@ -133,7 +133,7 @@ nav button {
     color: white;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -143,23 +143,18 @@ nav button {
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
-    .first{
-        flex-wrap: wrap;
-    }
-}
 
-.secImg{
+.secImg {
     position: relative;
 }
 
-.secImg img{
+.secImg img {
     width: 555PX;
     position: relative;
     z-index: 10;
 }
 
-.secImg video{
+.secImg video {
     position: absolute;
     top: 51px;
     right: 0;
@@ -167,38 +162,39 @@ nav button {
 }
 
 
-section.first > div{
+section.first>div {
     display: flex;
     flex-direction: column;
     padding: 34PX 0;
 }
 
-section.first > div :first-child{
+section.first>div :first-child {
     font-size: 48px;
     font-weight: bolder;
 }
 
 
 
-section.first > div :nth-child(2){
+section.first>div :nth-child(2) {
     font-size: 24px;
 }
 
-.faq h2{
+.faq h2 {
     text-align: center;
     font-size: 48px;
 }
-.faq{
+
+.faq {
     background-color: black;
     color: white;
     padding: 34px;
 }
 
-.faqbox svg{
+.faqbox svg {
     filter: invert(1);
 }
 
-.faqbox{
+.faqbox {
     transition: all 0.2s ease-out;
     font-size: 24px;
     display: flex;
@@ -210,23 +206,23 @@ section.first > div :nth-child(2){
     cursor: pointer;
 }
 
-.faqbox:hover{
+.faqbox:hover {
     background-color: rgba(65, 65, 65, 1);
     color: white;
 }
 
-footer{
+footer {
     color: white;
     max-width: 60vw;
     margin: auto;
     padding: 14px;
 }
 
-footer .questions{
+footer .questions {
     padding: 34px 0;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
@@ -234,20 +230,73 @@ footer .questions{
     margin: auto;
 }
 
-@media screen and (max-width: 500px) {
-    .first{
+
+
+@media screen and (max-width: 1300px) {
+    nav{
+        max-width: 90vw;
+    }
+    .first {
         flex-wrap: wrap;
-        grid-template-columns: 1fr 1fr ;
-        color: white;
+    }
+
+    .secImg img {
+        position: relative;
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .hero> :first-child {
+        font-size: 32px;
+    }
+
+    .hero>:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero>:nth-child(3) {
+        font-size: 18px;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .faq h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    .footer{
+        max-width: 90vw;
+    }
+    .footer-item{
+        align-items: center;
     }
 }
 
-.footer a{
+
+
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+    }
+}
+
+.footer a {
     font-size: 14px;
     color: white;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     flex-direction: column;
     gap: 23px;
